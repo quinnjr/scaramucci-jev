@@ -1,0 +1,58 @@
+{
+  "name": "scaramucci-jev",
+  "version": "0.1.0",
+  "description": "Is this date range X Scaramuccis long? Verified by the TypeSafe Jev API.",
+  "keywords": [
+    "scaramucci",
+    "anthony-scaramucci",
+    "time-unit",
+    "date-range",
+    "duration",
+    "jev",
+    "typesafe-ai",
+    "decision-model",
+    "llm",
+    "ai",
+    "cli",
+    "nodejs",
+    "esm",
+    "zero-dependency",
+    "white-house",
+    "humor"
+  ],
+  "author": "Joseph R. Quinn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quinnjr/scaramucci-jev.git"
+  },
+  "homepage": "https://github.com/quinnjr/scaramucci-jev#readme",
+  "bugs": {
+    "url": "https://github.com/quinnjr/scaramucci-jev/issues"
+  },
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "scaramucci": "./bin/scaramucci.js"
+  },
+  "files": [
+    "src",
+    "bin"
+  ],
+  "packageManager": "pnpm@12.6.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "scaramucci": "node bin/scaramucci.js"
+  }
+}
